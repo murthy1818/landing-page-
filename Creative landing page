@@ -1,0 +1,116 @@
+<html>
+
+<head>
+    <title>Kurumurthy</title>
+</head>
+<style>
+    body {
+        background-image: url("pr.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.9;
+    }
+
+    .navbar ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .navbar::before {
+        content: "";
+        background-color: black;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.5;
+
+    }
+
+    .navbar ul li {
+        text-decoration: none;
+        font-size: 1.3rem;
+    }
+
+    .navbar ul li a {
+        color: rgb(250, 250, 138);
+        display: block;
+        padding: 3px 22px;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+
+    .navbar ul li a:hover {
+        color: white;
+        background-color: rgb(43, 37, 37);
+    }
+    .c2{
+        margin-left: 80%;
+        margin-top: 50px;
+        border: 2px solid greenyellow;
+        background-color: rgb(217, 185, 127);
+        padding-left: 85px;
+        font-size: 20px;
+        
+
+    }
+    li{
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    #i1{
+        padding-bottom: 10px;
+    }
+    .c4{
+        margin-top:0%;
+    }
+    .c5{
+        margin-left: 10px;
+    }
+    .c6{
+        color: rgb(133, 12, 12);
+        font-size: 25px;
+    }
+
+    
+</style>
+
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="box" id="box1"><a href="#">Home</a></li>
+            <li class="box" id="box2"><a href="#">About</a></li>
+            <li class="box" id="box3"><a href="#">Support</a></li>
+            <li class="box" id="box4"><a href="#">Contact us</a></li>
+        </ul>
+
+    </nav>
+    <div class="c2">
+        <ul>
+            <li class="c3" id="i1"><a href="#">Register</a></li>
+            <li class="c3" id="i2"><a href="#">Login</a></li>
+        </ul>
+    </div>
+    <div class="c4">
+        <h1 align="center">Welcome to our community of Making the<h1></h1>
+        <h1 align="center"> Best out of the Waste</h1>
+    </div>
+    <div class="c5">
+        <h2><u>choose the type of the waste you want to sell</u></h2>
+            <a href="#" class="c6">*Metal waste</a><br>
+            <a href="#" class="c6">*Garbage waste</a><br>
+            <a href="#" class="c6">*Building DisMantle Scrap</a><br>
+            <a href="#" class="c6">*plastic</a><br>
+            <a href="#" class="c6">*organic</a>
+
+    </div>
+</body>
+
+</html>
